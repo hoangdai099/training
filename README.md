@@ -6,7 +6,7 @@ git merge
 git rebase
 git checkout master^
 git checkout HEAD^
-git checkout -f HEAD~3
+git branch -f (ten) HEAD~3
 git reset HEAD~1
 git revert HEAD
 git cherry-pick C2 C4
