@@ -1,8 +1,3 @@
-Code github
-git commit
-git branch (tên)
-git checkout
-git merge
 git rebase
 git checkout master^
 git checkout HEAD^
