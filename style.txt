@@ -1,0 +1,94 @@
+#header {
+	/*Định dạng văn bản*/
+	text-transform: none; /*trả văn bản về định dạng ban đầu*/
+	text-transform: capitalize; /*chữ đầu tiên trong mỗi thành phần là chữ hoa*/
+	text-transform: uppercase; /*tất cả chữ trong văn bản thành chữ hoa*/
+	text-transform: lowercase; /*tất cả chữ trong văn bản thành chữ thường*/
+	text-transform: inherit; /*phụ thuộc thành phần cha*/
+	
+	/*Định dạng vị trí*/
+	text-align: left; /*sắp xếp nội dung về bên trái*/
+	text-align: right; /*sắp xếp nội dung về bên phải*/
+	text-align: center; /*sắp xếp nội dung nằm giữa*/
+	text-align: justify; /*sắp xếp nội dung cho các dòng có chiều rộng bằng nhau*/
+	text-align: inherit; /*phụ thuộc thành phần cha*/
+	/*Màu sắc cho chữ*/
+	color: red; /*màu sắc cho chữ*/
+	color: inherit; /*phụ thuộc thành phần cha*/
+	/*Căn thụt đầu dòng của dòng đầu tiên trong khối văn bản*/
+	text-indent: giá trị; bao gôm px, %, em, ...
+	text-indent: inherit; /*thừa hưởng thuộc tính từ thành phần cha*/
+
+	/*Trang trí cho văn bản*/
+	text-decoration: none; /*định dạng văn bản mặc định*/
+	text-decoration: underline; /*đường gạch bên dưới văn bản*/
+	text-decoration: overline; /*đường gạch trên văn bản*/
+	text-decoration: line-through; /*đường gạch ngang văn bản*/
+	text-decoration: blink; /*văn bản nhấp nháy*/
+	text-decoration: inherit; /*phụ thuộc thành phần cha*/
+--------------------------------------------------------------------------------
+	/*Nền*/
+	background-attachment: fixed; /*nền cố định so với trang*/
+	background-attachment: scroll; /*nền cuộn so với trang*/
+	background-color: màu sắc; /*màu nền cho thành phần*/
+	background-image: url(img.png); /*ảnh nền cho thành phần*/
+	background-position: top button left right ; /*xác định vị trí hình ảnh nền cho thành phần*/
+	/*Lặp lại hình ảnh*/
+	background-repeat: repeat-x; /*lặp theo chiều ngang*/
+	background-repeat: repeat-y; /*lặp theo chiều dọc*/
+	background-repeat: no-repeat; /*không lặp*/
+	background-repeat: repeat; /*được lặp theo 2 chiều*/
+--------------------------------------------------------------------------------
+	/*Định dạng đường viên*/
+	border-color: màu sắc; /*màu sắc đường viền*/
+	border-width: ...px; /*bề dày đường viền*/
+	/*Vị trí đường viền*/
+	border-top: red solid 2px; /*xác định đường viền bên trên*/
+	border-bottom: red solid 2px; /*xác định đường viền bên dưới*/
+	border-left: red solid 2px; /*xác định đường viền bên trái*/
+	border-right: red solid 2px; /*xác định đường viền bên phải*/
+	border: red solid 2px; /*xác định tất cả đường viền*/
+	/*Thuộc tính cho đường viền cụ thể*/
+	border-top-color: red; /*màu sắc đường viền bên trên*/
+	border-top-style: solid; /*màu sắc đường viền bên trên*/
+	border-top-width: 2px; /*màu sắc đường viền bên trên*/
+	/*các style đường viền*/
+	border-style: none; /*không có đường viền*/
+	border-style: hidden; /*như none nhưng dùng cho table*/
+	border-style: dotted; /*đường viền thành phần dấu chấm*/
+	border-style: dashed; /*đường viền thành phần gạch ngang*/
+	border-style: solid; /*đường viền thành phần đường thẳng nét*/
+	border-style: double; /*đường viền 2 đường thẳng*/
+	border-style: groove; /*đường viền có rãnh 3D*/
+	border-style: ridge; /*đường viền có viền 3D*/
+	border-style: inset; /*viền 3D đầu*/
+	border-style: outset; /*viền 3D dưới*/
+	border-style: inherit; /*phụ thuộc thành phần cha*/
+	/*border cho table*/
+	border-collapse: collapse; /*loại bỏ khoảng trống giữa các đường viền của table chỉ để lại đường viền duy nhất*/
+	border-collapse: separate; /*Khoảng trống giữa các đường viền của table vẫn giữ nguyên, đây là dạng mặc định của table*/
+	border-collapse: inherit; /*phụ thuộc thành phần cha*/
+	/*khoảng cách giữa các đường viền table*/
+	border-spacing: 10px; /*độ rộng giữa các đường viền*/
+	border-spacing: 10px 20px; /*độ rộng giữa các đường viền với giá trị ngang và dọc*/
+	border-spacing: inherit; /*phụ thuộc thành phần cha*/
+--------------------------------------------------------------------------------
+	/*Vị trí chú thích trong table*/
+	caption-side: top; /*caption có vị trí bên trên table*/
+	caption-side: bottom; /*caption có vị trí bên dưới table*/
+	caption-side: inherit; /*phụ thuộc thành phần cha*/
+--------------------------------------------------------------------------------
+	/*Di chuyển một thành phần*/
+	float: left; /*thành phần được trôi qua bên trái*/
+	float: right; /*thành phần được trôi qua bên phải*/
+	float: none; /*dạng mặc định*/
+	float: inherit; /*phụ thuộc thành phần cha*/
+	/*Thuộc tính clear xác định 2 bên, nơi float không được hoạt động*/
+	clear: left; /*bên trái của thành phần không được float*/
+	clear: right; /*bên phải của thành phần không được float*/
+	clear: both; /*bên trái phải của thành phần không được float*/
+	clear: none; /*dạng mặc định*/
+	clear: inherit; /*phụ thuộc thành phần cha*/
+	
+}
+
