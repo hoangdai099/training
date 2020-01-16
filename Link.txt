@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- Thẻ a -->
+	<!-- Thẻ hiển thị địa chỉ website -->
+	<a href="https://www.w3schools.com/html/">Tên hiển thị</a><br>
+	<!-- Thẻ hiển thị email -->
+	<a href="mailto:hoangdai2603@gmail.com">Email dai</a><br>
+	<!-- Thẻ dẫn tới website trong cửa sổ mới -->
+	<a href="https://www.w3schools.com/html/" target="_Black">w3schools mở cửa số mới</a><br>
+</body>
+</html>

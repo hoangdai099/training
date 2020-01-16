@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- Thẻ img -->
+	<img src="images/1.jpg" alt="khi không hiển thị ảnh sẽ hiện alt" title="chú thích khi trỏ vào ảnh" width="500" height="350">
+	<!-- 
+	width chiều ngang có thể sử dụng %
+	height chiều dọc có thể sử dụng %
+	-->
+	<p><img src="images/1.jpg" alt="anh 1" width="25%" height="25%" align="left" >hình ảnh bên trái chữ</p>
+	<!-- align : left right top middle bottom -->
+	<!-- Hình ảnh đi kèm chú thích -->
+	<figure>
+		<img src="images/1.jpg" alt="">
+		<figcaption>chú thích</figcaption>
+	</figure>
+</body>
+</html>

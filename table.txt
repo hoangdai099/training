@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- Thẻ bảng -->
+	<table>
+		<caption>Tên bảng</caption>
+		<thead>
+			<tr>
+				<th>header 1</th>
+				<th>header 2</th>
+				<th>header 3</th>
+				<th>header 4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>data 1</td>
+				<td>data 2</td>
+				<td>data 3</td>
+				<td>data 4</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- Thẻ th trong table -->
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">thứ 2</th>
+			<th scope="col">thứ 3</th>
+		</tr>
+		<tr>
+			<th scope="row">Tiêu đề hàng</th>
+			<td colspan="2">phần tử 1</td>
+			<!-- colspan là khoảng cách ngang các td -->
+			<!-- rowspan là khoảng cách dọc các td -->
+			<td colspan="2">phần tử 2</td>
+		</tr>
+		<tr>
+			<th scope="row">giá tiền</th>
+			<td colspan="2">600$</td>
+			<td colspan="2">700$</td>
+		</tr>
+	</table>
+	<table>
+	    <tr>
+	      	<th></th>
+	        <th>ABC</th>
+	        <th>BBC</th>
+	        <th>CNN</th>
+	    </tr>
+	    <tr>
+	        <th>6pm - 7pm</th>
+	        <td rowspan="2">Movie</td>
+	        <!-- rowspan gộp 2 hàng ngang -->
+	        <td>Comedy</td>
+	        <td>News</td>
+	    </tr>
+	    <tr>
+	    	<th>7pm - 8pm</th>
+	    	<td>Sport</td>
+	    	<td>Current Affairs</td>
+	    </tr> 
+	</table> 
+	<table>
+		<caption>Tên bảng</caption>
+		<thead>
+			<tr>
+				<th>header 1</th>
+				<th>header 2</th>
+				<th>header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>data</th>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<table border="2" bgcolor="red">
+		<!-- border độ đậm kẻ bảng
+		bgcolor màu trong bảng -->
+		<caption>Tên bảng</caption>
+		<thead>
+			<tr>
+				<th>header 1</th>
+				<th>header 2</th>
+				<th>header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>data</th>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

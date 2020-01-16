@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- Thẻ Headings (Tiêu đề theo kích thước giảm dần) -->
+	<h1>Tiêu đề</h1>
+	<h2>Tiêu đề</h2>
+	<h3>Tiêu đề</h3>
+	<h4>Tiêu đề</h4>
+	<h5>Tiêu đề</h5>
+	<!-- Thẻ P (viết đoạn văn) -->
+	<p>Trình bày</p>
+	<!-- Thẻ in đậm -->
+	<p><b>In đậm chữ Bold</b></p>
+	<!-- Thẻ chữ nghiêng Italic -->
+	<p><i>Chữ nghiêng</i></p>
+	<!-- Thẻ chữ nhỏ trên Superscript -->
+	<p>2<sup>3</sup></p>
+	<!-- Thẻ chữ nhỏ dưới Subscript -->
+	<p>2<sub>3</sub></p>
+	<!-- Thẻ xuống dòng Breaks -->
+	<p>Xin chào<br>mọi người</p>
+	<!-- Thẻ gạch ngang Horizontal rules -->
+	<p>xin chào</p>
+	<hr>
+	<p>mọi người</p>
+	<!-- Thẻ blockquote tạo khoảng trắng đầu dòng -->
+	<blockquote cite="http://example.com/facts">
+		<p>xin chao</p>
+	</blockquote>
+	<p>xin chao</p>
+	<!-- Thẻ trính dẫn đoạn văn q -->
+	<p>trích dẫn <q>đoạn văn</q> </p>
+	<!-- Thẻ viết tắt Abbreviations và Acronyms -->
+	<p><abbr title="VietNam">VN</abbr>viết tắt</p>
+	<p><acronym title="VietNam">VN</acronym>viết tắt</p>
+	<!-- Thẻ địa chỉ address -->
+	<address>
+	<p>
+		<a href="Email@gmail.com">Email@gmail.com</a>
+	</p>	
+	</address>
+	<!-- Thẻ ins và del,s -->
+	<p><del> Gạch ngang chữ</del> và <ins>Gạch chân</ins></p>
+	<p>
+		<s>Giá cũ</s>
+	</p>
+	<!-- Thẻ danh sách  -->
+	<!-- Dạng số -->
+	<ol>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ol>
+	<!-- Dạng chấm -->
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ul>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3
+			<ul>
+				<li>3.1</li>
+				<li>3.2</li>
+				<li>3.3</li>
+			</ul>
+		</li>
+		<li>4</li>
+	</ul>
+	<!-- Thẻ định nghĩa -->
+	<dl>
+		<dt>định nghĩa</dt>
+		<dd>giải thích cho định nghĩa</dd>
+	</dl>
+</body>
+</html>
